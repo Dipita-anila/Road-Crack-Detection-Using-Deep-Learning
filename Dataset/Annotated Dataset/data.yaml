@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Crack', 'Non_Crack']
+
+roboflow:
+  workspace: aust-xzuno
+  project: road-crack-detection-69aqn
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aust-xzuno/road-crack-detection-69aqn/dataset/2
